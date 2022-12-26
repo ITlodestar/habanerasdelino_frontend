@@ -12,6 +12,7 @@ dirs.forEach((dir) => {
       // gzip
       const zip = zlib.createGzip();
 
+      fileContents
         .pipe(zip)
         .on("error", (err) => console.error(err))
         .pipe(writeStream)
