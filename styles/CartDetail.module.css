@@ -1,0 +1,178 @@
+.cartDetailContainer{
+    font-weight: lighter;
+}
+
+.card_main{
+    margin-top: 450px;
+    margin-bottom: 100px;
+    background-color: white !important;
+    border: 1px solid white;
+    color: #25284b;
+    font-family: "Montserrat", sans-serif;
+    font-size:20px;
+}
+
+.card_main_header{
+    /* text-align: center; */
+    border-bottom: 1px solid white;
+    /* font-size: 24px; */
+    background-color: white;
+}
+
+.card_image{
+    height: 300px;
+    width: 250px;
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.row_name_of_product{
+    text-align: center;
+}
+
+.row_product_vars{
+    text-align: center;
+}
+
+.row_buttons{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.button_main{
+    width: 60%;
+    background-color: #25284b;
+    color:white;
+    border-color: #25284b;
+}
+
+.button_main:active,
+.button_main:after,
+.button_main:focus,
+.button_main:hover{
+    width: 60%;
+    background-color: steelblue;
+    color:white;
+    border-color: steelblue;
+}
+
+.product_card{
+    margin-top: 20px;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-bottom: 1px solid white;
+}
+
+.row_final_price{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.row_final_buttons{
+    text-align: center;
+}
+
+.about_title {
+    color: #25284b;
+    font-family: "Montserrat", sans-serif;
+    font-size: 60px;
+    text-align: center;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  
+  .about_title_span{
+      background:#fff; 
+      padding:0 10px; 
+  }
+
+  .color_box_wrapper{
+    margin-left: auto !important;
+    margin-right: auto !important;
+    text-align: center !important;
+  }
+
+  .color_box_div{
+    display: flex !important;
+    flex-direction: row !important ;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    text-align: center !important;
+    width:min-content;
+  }
+
+  .color_box_p{
+    margin-right:5px;
+  }
+
+  .col_prod{
+    text-align: start;
+    width: 100%;
+    max-width: 250px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+@media screen and (max-width: 758px) {
+
+
+    .image_col{
+        text-align:center;
+    }
+
+    .card_image{
+        max-height: 250px;
+        max-width: 200px;
+    }
+
+    .button_main{
+        margin-bottom: 10px;
+    }
+
+    .about_title {
+        width:100%;
+        font-size: 40px;
+      }
+
+      .col_prod{
+        text-align: center;
+    }
+
+    .card_main{
+        margin-top: 0px !important;
+    }
+}
+
+.coupon_div{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.coupon_div_col{
+    max-width: 400px;
+    margin-bottom: 50px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.add_coupon_button{
+    background-color: steelblue !important;
+    border-color: steelblue !important;
+}
+
+.add_coupon_button:hover,
+.add_coupon_button:active,
+.add_coupon_button:after,
+.add_coupon_button:focus{
+    background-color: #25284b !important;
+    border-color:#25284b !important;
+}
+
+.coupon_info{
+    padding-top: 20px !important;
+}

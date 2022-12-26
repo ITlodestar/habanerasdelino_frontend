@@ -1,0 +1,67 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: white !important;
+  }
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Corinthia";
+  src: url("/fonts/Corinthia/Corinthia-Regular.ttf");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Corinthia";
+  src: url("/fonts/Corinthia/Corinthia-Bold.ttf");
+  font-style: medium;
+  font-weight: 500;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/Montserrat/Montserrat-Regular.ttf") format('truetype');;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/Montserrat/Montserrat-Light.ttf") format('truetype');;
+  font-style: lighter;
+  font-weight: 300;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/Montserrat/Montserrat-Bold.ttf") format('truetype');
+  font-style: medium;
+  font-weight: 700;
+  font-display: swap;
+}
+
+.react-multiple-carousel__arrow--left{
+  left: 0px !important;
+}
+
+.react-multiple-carousel__arrow--right{
+  right: 0px !important;
+}

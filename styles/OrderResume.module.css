@@ -1,0 +1,34 @@
+.orderResumeContainer{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-weight: lighter;
+    width: 100%;
+    max-width: 800px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.card{
+    background-color: white;
+    color: #25284b;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    border: 1px solid rgba(200,200,200,1);
+}
+
+.card_header{
+    font-size: 30px;
+    text-align: center;
+    border-bottom: 1px solid rgba(200,200,200,1);
+    font-family: "Montserrat", sans-serif;
+    background-color: white;
+}
+
+@media screen and (max-width: 758px){
+    .card{
+        font-size: 18px;
+    }
+    .card_header{
+        font-size: 24px;
+    }
+}

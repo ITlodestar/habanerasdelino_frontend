@@ -1,0 +1,17 @@
+
+.pcolor{
+    color: #112a57 !important;
+  }
+  
+  .scolor{
+    background-color: white !important;
+    color: #112a57 !important;
+  }
+  
+  .itshape{
+    font-weight: lighter;
+  }
+
+  .shoppingCartp{
+      display: flex !important;
+  }

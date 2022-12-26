@@ -1,0 +1,40 @@
+{
+  "name": "mom_style_frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome": "^1.1.8",
+    "@fortawesome/fontawesome-free-regular": "^5.0.13",
+    "@fortawesome/fontawesome-free-solid": "^5.0.13",
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@fortawesome/free-solid-svg-icons": "^5.15.4",
+    "@fortawesome/react-fontawesome": "^0.1.16",
+    "@paypal/checkout-server-sdk": "^1.0.3",
+    "@paypal/react-paypal-js": "^7.4.2",
+    "axios": "^0.24.0",
+    "bootstrap": "^5.1.3",
+    "next": "^12.0.7",
+    "next-sitemap": "^1.6.203",
+    "react": "17.0.2",
+    "react-bootstrap": "^2.0.1",
+    "react-dom": "17.0.2",
+    "react-multi-carousel": "^2.6.5",
+    "react-paypal-button-v2": "^2.6.3",
+    "react-paypal-express-checkout": "^1.0.5",
+    "react-stepper-horizontal": "^1.0.11",
+    "zlib": "^1.0.5"
+  },
+  "devDependencies": {
+    "eslint": "7.32.0",
+    "eslint-config-next": "12.0.1",
+    "nextjs-sitemap-generator": "^1.3.1",
+    "prettier": "1.12.1",
+    "typescript": "^4.5.4"
+  }
+}

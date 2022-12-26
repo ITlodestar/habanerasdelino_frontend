@@ -1,0 +1,159 @@
+.footer {
+    background-color: #25284b;
+    color: white !important;
+    font-weight: 300 !important;
+    text-align: center;
+    margin-top: 300px;
+    height: 250px;
+    width: 100% !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    padding: 0px;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .footerWrapper {
+    color: white !important;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    margin: 0px;
+    margin-top: 30px;
+    padding: 0px;
+  }
+  
+
+  .contactUsCol{
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 100%;
+
+  }
+
+  .contactUsColP{
+    /* font-weight: bold; */
+  }
+  
+  .footerLink,
+  .p {
+    color: white !important;
+    text-decoration: none;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+  
+  .footerLink:hover,
+  .footerLink:after,
+  .footerLink:focus,
+  .footerLink:active {
+    color: white !important;
+    text-decoration: none;
+  }
+  
+  .contactUsP {
+    color: white !important;
+    text-decoration: none;
+  }
+  
+  .contactUsRow {
+    width: max-content;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  .contactUsInfoCol{
+    width: max-content;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  .developer_row{
+    width: max-content;
+    margin-top: 30px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  @media screen and (max-width: 758px) {
+    .footerWrapper {
+      color: white !important;
+      display: flex;
+      width: 100%;
+      flex-direction: column;
+      margin-top: 80px;
+      margin-left: auto !important;
+      margin-right: auto !important;
+      justify-content: center;
+    }
+  
+    .footer {
+      background-color: #25284b;
+      color: white !important;
+      font-weight: 300 !important;
+      text-align: center;
+      margin-top: 50px;
+      height: 600px;
+      width: 100% !important;
+      position: relative;
+      bottom: 0;
+      margin-left: 0px !important;
+      margin-right: 0px !important;
+      padding: 0px;
+    }
+
+    .contactUsColP{
+      color: white !important;
+      text-decoration: none;
+      margin-top: 10px;
+      padding: 0px !important;
+    }
+
+    .contactUsInfoCol{
+      margin-top: 10px;
+      width:max-content;
+      padding-left: 50px !important;
+      padding-right: 50px !important;
+    }
+  
+    .footerLink,
+    .p,
+    .contactUsP {
+      color: white !important;
+      text-decoration: none;
+      padding: 0px;
+    }
+
+    .contactUsRow{
+      color: white !important;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      width: 100%;
+      margin: 0px;
+      margin-top: 30px;
+      padding: 0px;
+    }
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 992px) {
+    .footer {
+      background-color: #25284b;
+      color: white !important;
+      font-weight: 300 !important;
+      text-align: center;
+      margin-top: 50px;
+      height: 500px !important;
+      width: 100% !important;
+      position: relative;
+      bottom: 0;
+      margin-left: 0px !important;
+      margin-right: 0px !important;
+      padding: 0px;
+    }
+
+    .footerWrapper {
+      margin-top: 100px;
+    }
+  }
