@@ -10,6 +10,7 @@ dirs.forEach((dir) => {
     console.log(dir)
     if (file.endsWith(".xml")) {
       // gzip
+      const fileContents = fs.createReadStream(dir + "/" + file);
       const writeStream = fs.createWriteStream(dir + "/" + file + ".gz");
       const zip = zlib.createGzip();
 
