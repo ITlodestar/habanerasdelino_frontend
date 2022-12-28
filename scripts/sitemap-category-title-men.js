@@ -1,4 +1,5 @@
 const fs = require("fs");
+const prettier = require("prettier");
 
 const getDate = new Date().toISOString();
 
